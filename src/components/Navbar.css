@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h1 {
+    font-size: 40px;
+}
+li {
+    list-style-type: none;
+    padding: 30px;
+}
+
+li:hover {
+    color: aqua;
+}
+
+button {
+    background-color: red;
+    margin-top: 50px;
+}
