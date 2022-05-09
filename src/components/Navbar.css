@@ -14,6 +14,7 @@ h1 {
 li {
     list-style-type: none;
     padding: 30px;
+    cursor: pointer;
 }
 
 li:hover {
@@ -21,6 +22,6 @@ li:hover {
 }
 
 button {
-    background-color: red;
+    background-color: white;
     margin-top: 50px;
 }
