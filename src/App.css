@@ -1,11 +1,16 @@
 .App {
   text-align: center;
 }
+.btn {
+  background-color: red;
+  padding-right: 10px;
+  padding-left: 10px;
+}
 
 .hero {
   height: 400px;
   background-color: aqua;
-  background-image: url("../neymar.jpg");
+  /*background-image: url("../photo1.avif"); */
   background-size: cover;
   display: flex;
   flex-direction: row;
@@ -15,7 +20,17 @@
   height: 300px;
   width: 200px;
   background-image: none;
-  background-color: aqua;
+  background-color: white;
   margin: 50px;
   border-radius: 25px;
+}
+h3 {
+  color: blueviolet;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .hero, .card, form {
+    width: 100%;
+  }
 }
