@@ -1,0 +1,61 @@
+.prem {
+    background-color: rgba(0, 0, 0, 0.808);
+    height: 500px;
+    margin: 0;
+}
+
+.less {
+    background-color: rgba(0, 0, 0, 0.808);
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h2 {
+    color: white;
+    font-size: 30px;
+    margin-left: 70px;
+}
+h4 {
+    color: white;
+    padding-top: 25px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 350px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.grid-item1 {
+    color: white;
+    background-image: url(../images/movie1.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+}
+h3 {
+    padding-top: 350px;
+    padding-left: 80px;
+}
+.grid-item2 {
+    color: white;
+    background-image: url(../images/movie4.avif);
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+}
+.grid-item3 {
+    color: white;
+    background-image: url(../images/movie2.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+}
+.grid-item4 {
+    color: white;
+    background-image: url(../images/movie3.avif);
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+}

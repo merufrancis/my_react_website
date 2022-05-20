@@ -1,4 +1,6 @@
-
+.App {
+  background-color: black;
+}
 .btn {
   background-color: red;
   padding-right: 10px;
@@ -13,8 +15,6 @@
 .thug {
   display: flex;
   flex-direction: row;
-
-
 }
 .bttn {
   background-color: white;
@@ -30,7 +30,7 @@
 .hero {
   height: 500px;
   background-color: aqua;
-  background-image: url("../movie.jpg");
+  background-image: url("./images/movie.jpg");
   background-size: cover;
   object-fit: cover;
   display: flex;
