@@ -7,12 +7,16 @@ const Navbar = () => {
     <div className='header'>
         <h1>Techwiz</h1>
         <ul>
-            <li>Home</li>
-            <li>Home</li>
-            <li>Home</li>
-            <li>Home</li>
+            <li>HOME</li>
+            <li>Series
+            </li>
+            <li>Movies</li>
+            <li>Membership</li>
         </ul>
-        <Button />
+        <ul>
+        <li>Sign in</li>
+        </ul>
+        <Button  />
     </div>
   )
 }

@@ -1,20 +1,46 @@
-.App {
-  text-align: center;
-}
+
 .btn {
   background-color: red;
   padding-right: 10px;
-  padding-left: 10px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  margin-left: 20px;
+  height: 25px;
+  width: 100px;
+  cursor: pointer;
+}
+.thug {
+  display: flex;
+  flex-direction: row;
+
+
+}
+.bttn {
+  background-color: white;
+  padding-right: 10px;
+  border-radius: 10px;
+  border: none;
+  color: black;
+  width: 100px;
+  margin-left: 100px;
+  cursor: pointer;
 }
 
 .hero {
-  height: 400px;
+  height: 500px;
   background-color: aqua;
-  /*background-image: url("../photo1.avif"); */
+  background-image: url("../movie.jpg");
   background-size: cover;
+  object-fit: cover;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
+  padding: 70px;
+}
+p {
+  color: white;
+  font-size: 50px;
 }
 .card {
   height: 300px;
@@ -28,7 +54,7 @@ h3 {
   color: blueviolet;
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 400px) {
   /* For mobile phones: */
   .hero, .card, form {
     width: 100%;
