@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Premium from './components/Premium';
+import Search from './components/Search';
 
 function App() {
   return (
@@ -10,7 +11,9 @@ function App() {
      <Navbar />
      <Hero />
      <Premium />
+     <Search />
     </div>
+
   );
 }
 

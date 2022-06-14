@@ -11,15 +11,19 @@ const premium = () => {
     <div className="grid-container">
       <div className="grid-item1">
         <h3>Money Heist</h3>
+        <h5>this is good</h5>
       </div>
       <div className="grid-item2">
       <h3>Merlin</h3>
+      <h5>this is good</h5>
       </div>
       <div className="grid-item3">
       <h3>Bad Lands</h3>
+      <h5>this is good</h5>
       </div>
       <div className="grid-item4">
       <h3>365 Days</h3>
+      <h5>this is good</h5>
       </div>
     </div>
     </div>
