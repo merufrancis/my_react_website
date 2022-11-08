@@ -5,18 +5,23 @@ import Button from './Button'
 const Navbar = () => {
   return (
     <div className='header'>
-        <h1>Techwiz</h1>
+        <h1><span style={{color: "red"}} >Tech</span>wiz</h1>
         <ul>
-            <li>HOME</li>
-            <li>Series
+            <li>
+            <a href='/'>Home</a>
             </li>
-            <li>Movies</li>
-            <li>Membership</li>
+            <li>
+                <a href='/about'>About</a>
+            </li>
+            <li><a href='/movies'>Movies</a></li>
+            <li>
+            <a href='/member'>Membership</a>
+            </li>
         </ul>
         <ul>
-        <li>Sign in</li>
+        <li><a href='/about'>About</a></li>
         </ul>
-        <Button  />
+        <Button />
     </div>
   )
 }

@@ -19,6 +19,7 @@ h2 {
 h4 {
     color: white;
     padding-top: 25px;
+    margin-right: 50px;
 }
 .grid-container {
     display: grid;
@@ -65,3 +66,13 @@ h5 {
     width: 300px;
     height: 350px;
 }
+.abt {
+    background-color: white;
+}
+
+@media only screen and (max-width: 400px) {
+    /* For mobile phones: */
+    .grid-container, .grid-item {
+      width: 300px;
+    }
+  }

@@ -8,9 +8,10 @@
   border: none;
   color: white;
   margin-left: 20px;
-  height: 25px;
+  height: 35px;
   width: 100px;
   cursor: pointer;
+  font-size: 15px;
 }
 .thug {
   display: flex;
@@ -53,10 +54,16 @@ p {
 h3 {
   color: blueviolet;
 }
+.hero p {
+  font-size: 70px;
+}
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   /* For mobile phones: */
+  .App {
+    width: 500px;
+  }
   .hero, .card, form {
-    width: 100%;
+    width: 400px;
   }
 }
